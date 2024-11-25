@@ -20,7 +20,6 @@ func main() {
 	checkErr(err)
 	input := string(data)
 	boxes := strings.Split(strings.TrimSpace(input), "\n")
-	fmt.Printf("%d\n", len(boxes))
 	feetPaper := 0
 	feetRibbon := 0
 	for _, box := range boxes {
